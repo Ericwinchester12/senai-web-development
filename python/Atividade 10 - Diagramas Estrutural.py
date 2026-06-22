@@ -6,7 +6,7 @@ class atividade:
         self.nota = nota
 
 #função pra teste se os dados estão printando (dados ficticios.)
-minha_atv=atividade("Atividade Xtranha", "Isso é trap mixtape", "33/03/2033", 10)
+minha_atv=atividade("Atividade Xtranha", "Isso é trap mixtape", "33/03/2033", 777-666)
 
 print(minha_atv.nome)
 print(minha_atv.descricao)

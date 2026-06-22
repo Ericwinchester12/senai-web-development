@@ -1,14 +1,18 @@
 class atividade:
     def __init__(self, nome, descricao, data_entrega, nota):
         self.nome = nome
-        self._descricao = descricao
-        self._data_entrega = data_entrega
-        self.__nota = nota
+        self.descricao = descricao
+        self.data_entrega = data_entrega
+        self.nota = nota
+
+    def exibir(self):
+        """Exibe os dados da atividade"""
+        print(f"Nome: {self.nome}")
+        print(f"Descrição: {self.descricao}")
+        print(f"Data: {self.data_entrega}")
+        print(f"Nota: {self.nota}")
 
 #função pra teste se os dados estão printando (dados ficticios.)
-exibir_dados = atividade("Atividade Xtranha", "Isso é trap mixtape", "33/03/2033", 777666)
+exibir_dados = atividade("Atividade Xtranha", "Isso é trap mixtape", "33/03/2033", 777-666)
 
-print(minha_atv.nome)
-print(minha_atv._descricao)
-print(minha_atv._data_entrega)
-print(minha_atv.__nota)
+exibir_dados.exibir()

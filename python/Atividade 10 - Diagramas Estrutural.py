@@ -6,7 +6,7 @@ class atividade:
         self.nota = nota
 
     def exibir(self):
-        """Exibe os dados da atividade"""
+#Exibe os dados da atividade
         print(f"Nome: {self.nome}")
         print(f"Descrição: {self.descricao}")
         print(f"Data: {self.data_entrega}")
